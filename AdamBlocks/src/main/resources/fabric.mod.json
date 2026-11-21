@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "adamblocks",
+  "version": "${version}",
+  "name": "Adam Blocks",
+  "description": "Highlight chosen blocks through walls, with grouped counts on hover.",
+  "authors": ["Adam"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.adam.blocks.AdamBlocksClient"],
+    "modmenu": ["com.adam.blocks.AdamModMenu"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
